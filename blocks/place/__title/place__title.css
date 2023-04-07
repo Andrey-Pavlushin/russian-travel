@@ -11,25 +11,24 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .place__tittle {
+    .place__title {
         max-width: 440px;
         width: 100%;
-
     }
 }
 
 @media screen and (max-width: 768px) {
-    .place__tittle {
+    .place__title {
+        max-width: 330px;
         width: 100%;
         font-size: 42px;
         line-height: 46px;
-        align-self: flex-end;
     }
     
 }
 
 @media screen and (max-width: 560px) {
-    .place__tittle {
+    .place__title {
         width: calc(100% - 32px);
         font-size: 32px;
         line-height: 35px;
