@@ -1,0 +1,39 @@
+.place__title {
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+    display: flex;
+    flex-direction: column;
+    max-width: 460px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .place__tittle {
+        max-width: 440px;
+        width: 100%;
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place__tittle {
+        width: 100%;
+        font-size: 42px;
+        line-height: 46px;
+        align-self: flex-end;
+    }
+    
+}
+
+@media screen and (max-width: 560px) {
+    .place__tittle {
+        width: calc(100% - 32px);
+        font-size: 32px;
+        line-height: 35px;
+        margin: 0 auto;
+
+    }
+}
