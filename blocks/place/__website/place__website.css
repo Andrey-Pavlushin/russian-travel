@@ -14,7 +14,6 @@
         align-self: flex-start;
         margin: 0 auto;
         width: 100%;
-        width: calc(100% - 32px);
         gap: 18px;
     }
 }

@@ -1,6 +1,6 @@
 .place {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(460px, 1fr));
+    grid-template-columns: minmax(340px, 460px) minmax(352px, 484px);
     grid-template-rows: auto;
     margin: 0;
     padding: 0;
@@ -15,25 +15,20 @@
 
 @media screen and (max-width: 1024px) {
     .place {
-        grid-template-columns: repeat(auto-fit, minmax(440px, 1fr));
+        grid-template-columns: minmax(320px, 440px) minmax(252px, 456px);
         column-gap: 32px; 
     }
 }
 
 @media screen and (max-width: 768px) {
     .place {
-        grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+        grid-template-columns: minmax(220px, 340px) minmax(200px, 352px);
         column-gap: 28px;
-        row-gap: 48px;
         padding-top: 70px;
-    }
-    
-    .place:first-of-type{
-        padding: 0;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 560px) {
     .place {
         margin: 0 auto;
         display: flex;
