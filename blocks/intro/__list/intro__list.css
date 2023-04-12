@@ -3,7 +3,7 @@
     margin: 0 auto;
     width: 100%;
     max-width: 984px;
-    padding: 40px 0 0;
+    padding: 33px 0 0;
     padding-right: 294px;
     box-sizing: border-box;
 }
@@ -15,13 +15,6 @@
 }
 
 @media screen and (max-width: 1023px) {
-    .intro__list{
-        max-width: none;
-        padding-right: 0;
-    }
-}
-
-@media screen and (max-width: 767px) {
     .intro__list{
         max-width: none;
         padding-right: 0;

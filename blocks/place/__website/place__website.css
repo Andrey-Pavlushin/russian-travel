@@ -13,7 +13,6 @@
 @media screen and (max-width: 767px) {
     .place__website {
         box-sizing: border-box;
-        padding: 0 16px;
-        width: 100%;
+        padding: 0 12px;
     }
 }
